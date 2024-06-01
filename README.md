@@ -1,4 +1,6 @@
-In this project, let's build an **Events** app by applying the concepts we have learned till now.
+# Events App
+
+In this project, I have successfully built an **Events** app by applying the concepts we have learned so far.
 
 ### Refer to the image below:
 
@@ -27,22 +29,23 @@ In this project, let's build an **Events** app by applying the concepts we have 
 
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
+
 </details>
 
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality Added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities:
 
-- Initially, the page should have the [No Active Event View](https://assets.ccbp.in/frontend/content/react-js/events-no-active-event-view-output.png)
-- When the image of an event item with `registrationStatus` as `YET_TO_REGISTER` is clicked, then the [Yet To Register View](https://assets.ccbp.in/frontend/content/react-js/events-yet-to-register-view-output.png) should be displayed
-- When the image of an event item with `registrationStatus` as `REGISTERED` is clicked, then the [Registered View](https://assets.ccbp.in/frontend/content/react-js/events-registered-view-output.png) should be displayed
-- When the image of an event item with `registrationStatus` as `REGISTRATIONS_CLOSED` is clicked, then the [Registrations Closed View](https://assets.ccbp.in/frontend/content/react-js/events-registrations-closed-view-output.png) should be displayed
+- Initially, the page displays the [No Active Event View](https://assets.ccbp.in/frontend/content/react-js/events-no-active-event-view-output.png).
+- When the image of an event item with `registrationStatus` as `YET_TO_REGISTER` is clicked, the [Yet To Register View](https://assets.ccbp.in/frontend/content/react-js/events-yet-to-register-view-output.png) is displayed.
+- When the image of an event item with `registrationStatus` as `REGISTERED` is clicked, the [Registered View](https://assets.ccbp.in/frontend/content/react-js/events-registered-view-output.png) is displayed.
+- When the image of an event item with `registrationStatus` as `REGISTRATIONS_CLOSED` is clicked, the [Registrations Closed View](https://assets.ccbp.in/frontend/content/react-js/events-registrations-closed-view-output.png) is displayed.
 
-- The `Events` component is provided with `eventsList`. It consists of a list of event objects with the following properties in each event object
+The `Events` component is provided with `eventsList`, which consists of a list of event objects with the following properties:
 
   |        Key         | Data Type |
   | :----------------: | :-------: |
@@ -69,7 +72,7 @@ The app must have the following functionalities
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+The following files were used to complete the implementation:
 
 - `src/components/Events/index.js`
 - `src/components/Events/index.css`
@@ -77,6 +80,7 @@ Use these files to complete the implementation:
 - `src/components/EventItem/index.css`
 - `src/components/ActiveEventRegistrationDetails/index.js`
 - `src/components/ActiveEventRegistrationDetails/index.css`
+
 </details>
 
 ### Important Note
@@ -86,7 +90,7 @@ Use these files to complete the implementation:
 
 <br/>
 
-**The following instructions are required for the tests to pass**
+**The following instructions are required for the tests to pass:**
 
 - The image for each event item should have alt attribute value as **event**
 
@@ -128,7 +132,7 @@ Use these files to complete the implementation:
 
 > ### _Things to Keep in Mind_
 >
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
+> - All components implemented are in the `src/components` directory.
+> - The component folder names have not been changed as they are required for the tests.
+> - **No pre-filled code was removed**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.

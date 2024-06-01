@@ -90,9 +90,6 @@ The following files were used to complete the implementation:
 
 <br/>
 
-**The following instructions are required for the tests to pass:**
-
-- The image for each event item should have alt attribute value as **event**
 
 </details>
 
@@ -129,10 +126,3 @@ The following files were used to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components implemented are in the `src/components` directory.
-> - The component folder names have not been changed as they are required for the tests.
-> - **No pre-filled code was removed**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
